@@ -1,6 +1,8 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Positionnement from "@/components/Positionnement";
-import Pillars from "@/components/Pillars";
+import Services from "@/components/Services";
+import Realisations from "@/components/Realisations";
 import Pourquoi from "@/components/Pourquoi";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -9,9 +11,11 @@ import MobileCTA from "@/components/MobileCTA";
 export default function Page() {
   return (
     <main className="relative">
+      <Header />
       <Hero />
       <Positionnement />
-      <Pillars />
+      <Services />
+      <Realisations />
       <Pourquoi />
       <Contact />
       <Footer />

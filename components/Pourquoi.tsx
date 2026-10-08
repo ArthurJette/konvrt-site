@@ -38,7 +38,7 @@ export default function Pourquoi() {
               </span>
             </Reveal>
             <Reveal delay={0.08}>
-              <h2 className="mt-4 pb-[0.1em] font-display text-fluid-h2 font-semibold leading-[1.5] tracking-tightest text-ink">
+              <h2 className="mt-4 pb-[0.25em] font-display text-fluid-h2 font-semibold leading-[1.5] tracking-tightest text-ink">
                 Une posture,
                 <br />
                 pas une méthode.
@@ -61,7 +61,7 @@ export default function Pourquoi() {
                     className="mt-2 h-2 w-2 shrink-0 rounded-full bg-gradient-to-br from-primary to-accent shadow-[0_0_0_4px_rgba(79,70,229,0.08)] transition-transform duration-500 ease-out-expo group-hover:scale-125"
                   />
                   <div>
-                    <h3 className="pb-[0.1em] font-display text-fluid-h3 font-semibold leading-[1.5] tracking-tight text-ink">
+                    <h3 className="pb-[0.25em] font-display text-fluid-h3 font-semibold leading-[1.5] tracking-tight text-ink">
                       {p.label}
                     </h3>
                     <p className="mt-3 text-fluid-body leading-relaxed text-muted">

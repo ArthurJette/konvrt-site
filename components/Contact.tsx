@@ -32,7 +32,7 @@ export default function Contact() {
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h2 className="mt-6 pb-[0.1em] font-display text-fluid-h1 font-semibold leading-[1.5] tracking-tightest text-ink">
+            <h2 className="mt-6 pb-[0.25em] font-display text-fluid-h1 font-semibold leading-[1.5] tracking-tightest text-ink">
               Parlons de{" "}
               <span className="italic text-primary">votre activité.</span>
             </h2>

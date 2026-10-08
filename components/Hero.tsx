@@ -34,7 +34,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h1 className="mt-6 pb-[0.1em] font-display font-semibold leading-[1.5] tracking-tightest text-ink">
+            <h1 className="mt-6 pb-[0.25em] font-display font-semibold leading-[1.5] tracking-tightest text-ink">
               <span className="block text-fluid-h1">Convertir</span>
               <span className="block text-fluid-h1">
                 pour <span className="italic text-primary">performer.</span>
@@ -44,9 +44,9 @@ export default function Hero() {
 
           <Reveal delay={0.16}>
             <p className="mx-auto mt-8 max-w-2xl text-fluid-lead leading-relaxed text-muted">
-              Pour les TPE et PME, nous construisons les systèmes qui
-              convertissent, exécutent et pilotent &mdash; pour que votre
-              performance ne dépende plus de vous.
+              Un site qui vous amène des clients. Un système qui automatise
+              ce qui vous prend du temps. Pour que votre performance ne
+              dépende plus de vous.
             </p>
           </Reveal>
 
@@ -65,10 +65,10 @@ export default function Hero() {
                 </span>
               </a>
               <a
-                href="#pourquoi"
+                href="#services"
                 className="text-fluid-body text-muted underline-offset-8 transition-colors hover:text-ink hover:underline"
               >
-                Ce que ça change
+                Voir nos deux systèmes
               </a>
             </div>
           </Reveal>

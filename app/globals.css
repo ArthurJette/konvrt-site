@@ -8,6 +8,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Compensate for the fixed <Header /> when scrolling to in-page anchors */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
 body {
   background-color: #FAFAF9;
   color: #0F172A;

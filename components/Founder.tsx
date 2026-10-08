@@ -21,7 +21,7 @@ export default function Founder() {
         </div>
 
         <div className="flex flex-col items-center sm:items-start">
-          <p className="pb-[0.1em] font-display text-fluid-h3 font-semibold leading-[1.5] tracking-tight text-ink">
+          <p className="pb-[0.25em] font-display text-fluid-h3 font-semibold leading-[1.5] tracking-tight text-ink">
             Arthur Jette
           </p>
           <p className="mt-1 text-fluid-eyebrow uppercase tracking-[0.22em] text-primary">
