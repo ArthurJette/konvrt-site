@@ -11,6 +11,7 @@ const MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent(
 const anchors: Array<{ href: string; label: string }> = [
   { href: "#services", label: "Services" },
   { href: "#pourquoi", label: "Pourquoi KONVRT" },
+  { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
 ];
 

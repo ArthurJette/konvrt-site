@@ -59,6 +59,8 @@ const services: Service[] = [
     id: "operator",
     eyebrow: "Système 02",
     title: "OPERATOR",
+    answer:
+      "Le système OPERATOR audite votre activité commerciale, marketing puis technique, et construit les automatisations qui prennent en charge vos tâches répétitives — pour que votre performance ne dépende plus de vous.",
     tagline:
       "Diagnostiquer ce qui freine, puis automatiser ce qui doit tourner.",
     content: {
