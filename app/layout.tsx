@@ -3,6 +3,7 @@ import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import OrganizationSchema from "@/components/OrganizationSchema";
+import { Analytics } from "@vercel/analytics/next";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body className="font-sans bg-bg text-ink antialiased">
         <OrganizationSchema />
         {children}
+        <Analytics />
       </body>
     </html>
   );
