@@ -40,7 +40,7 @@ export default function Realisations() {
     <section
       id="realisations"
       aria-label="Réalisations"
-      className="relative py-24 sm:py-28 lg:py-36"
+      className="relative py-16 sm:py-28 lg:py-36"
     >
       <div
         aria-hidden
@@ -70,7 +70,7 @@ export default function Realisations() {
         <ul className="mt-14 grid grid-cols-1 gap-5 sm:mt-16 md:grid-cols-3 md:gap-6">
           {realisations.map((r, i) => (
             <Reveal key={r.id} as="li" delay={0.08 + i * 0.08}>
-              <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-ink/[0.08] bg-white/70 p-7 backdrop-blur-sm transition-transform duration-500 ease-out-expo hover:-translate-y-1 sm:p-8">
+              <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-ink/[0.08] bg-white/70 p-6 backdrop-blur-sm transition-transform duration-500 ease-out-expo hover:-translate-y-1 sm:p-8">
                 <div className="relative aspect-video overflow-hidden rounded-xl border border-ink/[0.06] bg-ink/[0.04]">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="rounded-full border border-ink/[0.1] bg-white/70 px-3 py-1 font-display text-fluid-eyebrow font-medium uppercase tracking-[0.22em] text-muted backdrop-blur-sm">

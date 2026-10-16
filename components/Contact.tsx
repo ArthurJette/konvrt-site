@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden py-28 sm:py-32 lg:py-40"
+      className="relative overflow-hidden py-20 sm:py-32 lg:py-40"
     >
       <div
         aria-hidden
@@ -62,7 +62,7 @@ export default function Contact() {
             <div className="mt-12 flex flex-col items-center gap-5">
               <a
                 href={MAILTO}
-                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-fluid-body font-medium text-white shadow-[0_12px_40px_-14px_rgba(79,70,229,0.6)] transition-all duration-300 ease-out-expo hover:bg-primary-hover hover:shadow-[0_20px_50px_-16px_rgba(124,58,237,0.7)] hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
+                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-3.5 sm:px-8 sm:py-4 text-fluid-body font-medium text-white shadow-[0_12px_40px_-14px_rgba(79,70,229,0.6)] transition-all duration-300 ease-out-expo hover:bg-primary-hover hover:shadow-[0_20px_50px_-16px_rgba(124,58,237,0.7)] hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
               >
                 Écrire à Arthur
                 <span

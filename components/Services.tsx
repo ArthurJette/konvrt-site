@@ -201,7 +201,7 @@ export default function Services() {
     <section
       id="services"
       aria-label="Services"
-      className="relative py-24 sm:py-28 lg:py-36"
+      className="relative py-16 sm:py-28 lg:py-36"
     >
       <div
         aria-hidden
@@ -233,7 +233,7 @@ export default function Services() {
         <ul className="mt-14 grid grid-cols-1 gap-5 sm:mt-16 md:grid-cols-2 md:gap-6">
           {services.map((s, i) => (
             <Reveal key={s.id} as="li" delay={0.08 + i * 0.08}>
-              <article className="group relative flex h-full flex-col rounded-2xl border border-ink/[0.08] bg-white/70 p-7 backdrop-blur-sm transition-transform duration-500 ease-out-expo hover:-translate-y-1 sm:p-8">
+              <article className="group relative flex h-full flex-col rounded-2xl border border-ink/[0.08] bg-white/70 p-6 backdrop-blur-sm transition-transform duration-500 ease-out-expo hover:-translate-y-1 sm:p-8">
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <span className="font-display text-fluid-eyebrow font-medium uppercase tracking-[0.22em] text-primary">
@@ -290,7 +290,7 @@ export default function Services() {
 
         {/* Bandeau combo — visuellement distinct sans casser la grille */}
         <Reveal delay={0.24}>
-          <div className="relative mt-6 overflow-hidden rounded-2xl border border-primary/25 bg-gradient-to-br from-primary/[0.06] via-accent/[0.04] to-transparent p-7 sm:p-9">
+          <div className="relative mt-6 overflow-hidden rounded-2xl border border-primary/25 bg-gradient-to-br from-primary/[0.06] via-accent/[0.04] to-transparent p-6 sm:p-9">
             <div
               aria-hidden
               className="pointer-events-none absolute inset-x-0 top-0 h-px bg-accent-line opacity-80"
@@ -311,7 +311,7 @@ export default function Services() {
 
               <a
                 href={mailtoWithSubject("Prise de contact — KONVRT")}
-                className="group inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-primary px-7 py-3.5 text-fluid-body font-medium text-white shadow-[0_10px_30px_-12px_rgba(79,70,229,0.55)] transition-all duration-300 ease-out-expo hover:bg-primary-hover hover:shadow-[0_16px_40px_-14px_rgba(124,58,237,0.6)] hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
+                className="group inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 sm:px-7 sm:py-3.5 text-fluid-body font-medium text-white shadow-[0_10px_30px_-12px_rgba(79,70,229,0.55)] transition-all duration-300 ease-out-expo hover:bg-primary-hover hover:shadow-[0_16px_40px_-14px_rgba(124,58,237,0.6)] hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
               >
                 Prendre contact
                 <span

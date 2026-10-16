@@ -22,7 +22,7 @@ export default function Pourquoi() {
   return (
     <section
       id="pourquoi"
-      className="relative py-24 sm:py-28 lg:py-36"
+      className="relative py-16 sm:py-28 lg:py-36"
     >
       <div
         aria-hidden

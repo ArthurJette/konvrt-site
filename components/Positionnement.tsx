@@ -8,7 +8,7 @@ const assurances = [
 
 export default function Positionnement() {
   return (
-    <section id="positionnement" className="relative py-24 sm:py-28 lg:py-36">
+    <section id="positionnement" className="relative py-16 sm:py-28 lg:py-36">
       <div className="mx-auto w-full max-w-content px-5 sm:px-8">
         <div className="mx-auto max-w-3xl">
           <Reveal>
