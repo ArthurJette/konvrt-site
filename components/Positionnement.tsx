@@ -2,8 +2,8 @@ import Reveal from "./Reveal";
 
 const assurances = [
   "Une vitrine qui donne envie de vous contacter, dès la première visite.",
-  "Un panneau indicateur, visible sur toutes les routes que prennent vos clients aujourd’hui pour vous trouver — y compris les nouvelles.",
-  "Un entretien qui se fait sans vous : chaque mois, votre présence se met à jour toute seule.",
+  "Visible partout où vos clients vous cherchent aujourd’hui — y compris les nouvelles plateformes de réponse IA.",
+  "Mise à jour automatique chaque mois. Vous ne touchez à rien.",
 ];
 
 export default function Positionnement() {
@@ -19,30 +19,23 @@ export default function Positionnement() {
 
           <Reveal delay={0.08}>
             <h2 className="mt-6 pb-[0.25em] font-display text-fluid-h2 font-semibold leading-[1.5] tracking-tightest text-ink">
-              Notre point de départ, c&rsquo;est un{" "}
-              <span className="text-primary">site internet.</span>
+              La première brique&nbsp;: un{" "}
+              <span className="text-primary">site qui travaille pour vous.</span>
             </h2>
           </Reveal>
 
           <Reveal delay={0.16}>
             <p className="mt-6 text-fluid-lead leading-relaxed text-muted">
-              Mais pas un site qui reste figé une fois livré. La plupart des
-              sites vitrines fonctionnent comme une boutique fermée le
-              dimanche &mdash; jolie, mais qui n&rsquo;évolue plus. Le vôtre
-              continue de travailler pour vous, chaque mois, sans que vous
-              ayez à y toucher.
+              Pas un site figé une fois livré. La plupart des sites vitrines
+              sont une boutique fermée le dimanche &mdash; jolie, mais qui
+              n&rsquo;évolue plus. Le vôtre continue de travailler pour vous,
+              chaque mois, sans que vous y touchiez&nbsp;:
             </p>
           </Reveal>
 
-          <Reveal delay={0.24}>
-            <p className="mt-10 text-fluid-body leading-relaxed text-ink">
-              Concrètement, trois choses sont assurées en même temps&nbsp;:
-            </p>
-          </Reveal>
-
-          <ul className="mt-5 space-y-4">
+          <ul className="mt-6 space-y-4">
             {assurances.map((line, i) => (
-              <Reveal key={line} as="li" delay={0.28 + i * 0.06}>
+              <Reveal key={line} as="li" delay={0.2 + i * 0.06}>
                 <div className="flex items-start gap-4">
                   <span
                     aria-hidden
@@ -56,18 +49,29 @@ export default function Positionnement() {
             ))}
           </ul>
 
-          <Reveal delay={0.48}>
-            <p className="mt-12 text-fluid-body leading-relaxed text-muted">
-              Il y a quinze ans, les entreprises qui ont compris le
-              référencement Google avant les autres ont pris dix ans
-              d&rsquo;avance sur leur marché. La même bascule est en train de
-              se produire, sur les nouveaux assistants que vos clients
-              interrogent à la place d&rsquo;un moteur de recherche classique.
-              Nous construisons cette avance dans chaque site que nous
-              livrons.{" "}
+          <Reveal delay={0.4}>
+            <p className="mt-10 text-fluid-body leading-relaxed text-muted">
+              Il y a quinze ans, bien référencer son site donnait dix ans
+              d&rsquo;avance. La même bascule arrive avec les assistants IA
+              que vos clients consultent désormais &mdash; nous
+              l&rsquo;intégrons à chaque site.{" "}
               <span className="font-display font-medium text-ink">
                 Pas en option. En standard.
               </span>
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.48}>
+            <p className="mt-6 text-fluid-body leading-relaxed text-muted">
+              Pour la plupart de nos clients, ce site n&rsquo;est qu&rsquo;un
+              début. La vraie transformation vient avec l&rsquo;audit et les
+              automatisations d&rsquo;OPERATOR.{" "}
+              <a
+                href="#services"
+                className="font-display font-medium text-primary underline-offset-8 hover:underline"
+              >
+                Découvrir le système OPERATOR &rarr;
+              </a>
             </p>
           </Reveal>
         </div>

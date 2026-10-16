@@ -1,14 +1,14 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "KONVRT — Convertir pour performer.";
+export const alt = "KONVRT — Diagnostiquer. Automatiser. Performer.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-async function loadSyne(): Promise<ArrayBuffer | null> {
+async function loadDisplayFont(): Promise<ArrayBuffer | null> {
   try {
     const cssResp = await fetch(
-      "https://fonts.googleapis.com/css2?family=Syne:wght@700",
+      "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700",
       {
         headers: {
           // Vieux User-Agent : force Google Fonts à renvoyer un fichier .ttf
@@ -31,9 +31,9 @@ async function loadSyne(): Promise<ArrayBuffer | null> {
 }
 
 export default async function OpengraphImage() {
-  const syne = await loadSyne();
+  const displayFont = await loadDisplayFont();
 
-  const fontFamily = syne ? "Syne" : "sans-serif";
+  const fontFamily = displayFont ? "Space Grotesk" : "sans-serif";
 
   return new ImageResponse(
     (
@@ -77,18 +77,18 @@ export default async function OpengraphImage() {
             alignItems: "center",
             fontFamily,
             fontWeight: 700,
-            fontSize: 140,
+            fontSize: 108,
             lineHeight: 1.05,
             letterSpacing: "-0.045em",
             color: "#0F172A",
             textAlign: "center",
           }}
         >
-          <div style={{ display: "flex" }}>Convertir</div>
+          <div style={{ display: "flex" }}>Diagnostiquer.</div>
+          <div style={{ display: "flex" }}>Automatiser.</div>
           <div style={{ display: "flex" }}>
-            <span>pour&nbsp;</span>
             <span style={{ fontStyle: "italic", color: "#4F46E5" }}>
-              performer.
+              Performer.
             </span>
           </div>
         </div>
@@ -113,11 +113,11 @@ export default async function OpengraphImage() {
     ),
     {
       ...size,
-      fonts: syne
+      fonts: displayFont
         ? [
             {
-              name: "Syne",
-              data: syne,
+              name: "Space Grotesk",
+              data: displayFont,
               style: "normal",
               weight: 700,
             },

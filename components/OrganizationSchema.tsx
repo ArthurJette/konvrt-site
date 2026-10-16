@@ -1,7 +1,7 @@
 import { EMAIL, LINKEDIN_URL, PHONE_TEL, SITE_URL } from "@/lib/site";
 
 const DESCRIPTION =
-  "Pour les TPE et PME, KONVRT installe deux systèmes complémentaires — Site Web pour être visible et convertir, OPERATOR pour diagnostiquer et automatiser — afin que votre performance ne dépende plus de vous.";
+  "Pour les TPE et PME, KONVRT installe deux systèmes complémentaires — OPERATOR pour diagnostiquer et automatiser, Site Web pour être visible et convertir — afin que votre performance ne dépende plus de vous.";
 
 export default function OrganizationSchema() {
   const data = {

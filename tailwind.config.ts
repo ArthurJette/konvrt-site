@@ -18,7 +18,7 @@ const config: Config = {
         accent: "#7C3AED",
       },
       fontFamily: {
-        display: ["var(--font-syne)", "sans-serif"],
+        display: ["var(--font-display)", "sans-serif"],
         sans: ["var(--font-dm-sans)", "sans-serif"],
       },
       fontSize: {

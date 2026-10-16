@@ -25,7 +25,7 @@ export default function Hero() {
                 aria-hidden
                 className="h-px w-6 bg-gradient-to-r from-primary to-accent"
               />
-              KONVRT
+              Agence Automatisation
               <span
                 aria-hidden
                 className="h-px w-6 bg-gradient-to-r from-accent to-primary"
@@ -34,19 +34,18 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h1 className="mt-6 pb-[0.25em] font-display font-semibold leading-[1.5] tracking-tightest text-ink">
-              <span className="block text-fluid-h1">Convertir</span>
-              <span className="block text-fluid-h1">
-                pour <span className="italic text-primary">performer.</span>
-              </span>
+            <h1 className="mt-6 pb-[0.1em] font-display font-semibold leading-[1.15] tracking-tightest text-ink">
+              <span className="block text-fluid-h1">Diagnostiquer.</span>
+              <span className="block text-fluid-h1">Automatiser.</span>
+              <span className="block text-fluid-h1 italic text-primary">Performer.</span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.16}>
             <p className="mx-auto mt-8 max-w-2xl text-fluid-lead leading-relaxed text-muted">
-              Un site qui vous amène des clients. Un système qui automatise
-              ce qui vous prend du temps. Pour que votre performance ne
-              dépende plus de vous.
+              Un système qui diagnostique et automatise ce qui vous freine.
+              Un site qui vous amène des clients. Pour que votre performance
+              ne dépende plus de vous.
             </p>
           </Reveal>
 

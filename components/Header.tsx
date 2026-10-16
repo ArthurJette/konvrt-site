@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const EMAIL = "arthur_jette@outlook.fr";
@@ -64,17 +65,18 @@ export default function Header() {
         <a
           href="#top"
           aria-label="KONVRT — retour en haut"
-          className="inline-flex items-center gap-2 text-fluid-eyebrow font-medium uppercase tracking-[0.22em] text-muted transition-colors hover:text-ink"
+          className="inline-flex shrink-0 items-center"
           onClick={() => setMenuOpen(false)}
         >
-          <span
-            aria-hidden
-            className="h-px w-5 bg-gradient-to-r from-primary to-accent"
-          />
-          KONVRT
-          <span
-            aria-hidden
-            className="h-px w-5 bg-gradient-to-r from-accent to-primary"
+          <Image
+            src="/brand/konvrt-logo-gradient.png"
+            alt="KONVRT"
+            width={2089}
+            height={753}
+            priority
+            className={`w-auto transition-all duration-300 ease-out-expo ${
+              scrolled ? "h-7" : "h-9"
+            }`}
           />
         </a>
 

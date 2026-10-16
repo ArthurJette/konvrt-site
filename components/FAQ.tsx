@@ -12,9 +12,14 @@ type QA = { question: string; answer: string };
 
 const faq: QA[] = [
   {
-    question: "Quelle est la différence entre Site Web et OPERATOR ?",
+    question: "Quelle est la différence entre OPERATOR et Site Web ?",
     answer:
-      "Site Web vous rend visible et convertit vos visiteurs en clients, avec des mises à jour automatiques chaque mois. OPERATOR diagnostique ce qui freine votre activité — commercial, marketing, process — puis construit les automatisations qui prennent en charge vos tâches répétitives. Les deux systèmes sont complémentaires, mais chacun reste vendable seul.",
+      "OPERATOR diagnostique ce qui freine votre activité — commercial, marketing, process — puis construit les automatisations qui prennent en charge vos tâches répétitives. Site Web vous rend visible et convertit vos visiteurs en clients, avec des mises à jour automatiques chaque mois. Les deux systèmes sont complémentaires, mais chacun reste vendable seul.",
+  },
+  {
+    question: "En quoi consiste l'audit OPERATOR ?",
+    answer:
+      "En deux temps : un audit Commercial & Marketing identifie ce qui freine votre croissance, puis un audit Technique & Automatisation priorise les automatisations à construire. Vos tâches répétitives sont ensuite prises en charge, pour de bon.",
   },
   {
     question: "Le site se met-il à jour tout seul après la livraison ?",

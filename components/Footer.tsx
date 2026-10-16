@@ -25,7 +25,7 @@ export default function Footer() {
           >
             KONVRT
           </a>
-          <p className="mt-2 text-sm text-muted">Convertir pour performer.</p>
+          <p className="mt-2 text-sm text-muted">Diagnostiquer. Automatiser. Performer.</p>
         </div>
 
         <div className="flex flex-col items-start gap-1.5 md:items-end">

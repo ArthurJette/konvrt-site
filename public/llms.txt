@@ -1,11 +1,11 @@
 # KONVRT
 
-> KONVRT aide les TPE et PME en France à être visibles, convertir leurs visiteurs en clients, et automatiser les tâches qui leur prennent du temps.
+> KONVRT aide les TPE et PME en France à diagnostiquer ce qui freine leur activité, automatiser les tâches qui leur prennent du temps, et être visibles pour convertir leurs visiteurs en clients.
 
 KONVRT propose deux systèmes complémentaires, chacun vendable séparément :
 
-- **Site Web** : un site conçu pour convertir dès la première visite, avec une visibilité renforcée sur les moteurs de recherche et les nouvelles plateformes de réponse conversationnelles, mis à jour automatiquement chaque mois sans intervention du client.
 - **OPERATOR** : un audit commercial & marketing, puis un audit technique & automatisation, suivis de la construction des automatisations identifiées pour prendre en charge les tâches répétitives.
+- **Site Web** : un site conçu pour convertir dès la première visite, avec une visibilité renforcée sur les moteurs de recherche et les nouvelles plateformes de réponse conversationnelles, mis à jour automatiquement chaque mois sans intervention du client.
 
 KONVRT accompagne des entreprises partout en France. Le premier échange se fait sans engagement.
 

@@ -34,30 +34,8 @@ function mailtoWithSubject(subject: string) {
 
 const services: Service[] = [
   {
-    id: "siteweb",
-    eyebrow: "Système 01",
-    title: "Site Web",
-    answer:
-      "Le système Présence installe votre entreprise là où vos clients cherchent — site, moteurs de recherche, nouvelles plateformes de réponse — et se met à jour sans intervention.",
-    tagline:
-      "Votre entreprise, visible et crédible — partout où vos clients cherchent.",
-    content: {
-      kind: "bullets",
-      items: [
-        "Un site pensé pour convertir dès la première visite",
-        "Une visibilité renforcée sur les moteurs de recherche et les nouvelles plateformes de réponse",
-        "Une mise à jour automatique — vous ne touchez à rien",
-      ],
-    },
-    ctaLabel: "Demander un devis",
-    ctaSubject: "Demande de devis KONVRT — Site Web",
-    jsonLdDescription:
-      "Site internet pour TPE et PME : pensé pour convertir dès la première visite, visibilité renforcée sur les moteurs de recherche et les moteurs de réponse conversationnels, mise à jour automatique sans intervention.",
-    icon: "siteweb",
-  },
-  {
     id: "operator",
-    eyebrow: "Système 02",
+    eyebrow: "Système OPERATOR",
     title: "OPERATOR",
     answer:
       "Le système OPERATOR audite votre activité commerciale, marketing puis technique, et construit les automatisations qui prennent en charge vos tâches répétitives — pour que votre performance ne dépende plus de vous.",
@@ -85,6 +63,28 @@ const services: Service[] = [
     jsonLdDescription:
       "Système OPERATOR pour TPE et PME, en trois phases séquentielles — chacune vendable seule : Audit Commercial & Marketing pour identifier ce qui freine la croissance, Audit Technique & Automatisation pour cartographier les process et outils et prioriser les automatisations, Construction des automatisations pour prendre en charge les tâches répétitives.",
     icon: "operator",
+  },
+  {
+    id: "siteweb",
+    eyebrow: "Système Présence",
+    title: "Site Web",
+    answer:
+      "Le système Présence installe votre entreprise là où vos clients cherchent — site, moteurs de recherche, nouvelles plateformes de réponse — et se met à jour sans intervention.",
+    tagline:
+      "Votre entreprise, visible et crédible — partout où vos clients cherchent.",
+    content: {
+      kind: "bullets",
+      items: [
+        "Un site pensé pour convertir dès la première visite",
+        "Une visibilité renforcée sur les moteurs de recherche et les nouvelles plateformes de réponse",
+        "Une mise à jour automatique — vous ne touchez à rien",
+      ],
+    },
+    ctaLabel: "Demander un devis",
+    ctaSubject: "Demande de devis KONVRT — Site Web",
+    jsonLdDescription:
+      "Site internet pour TPE et PME : pensé pour convertir dès la première visite, visibilité renforcée sur les moteurs de recherche et les moteurs de réponse conversationnels, mise à jour automatique sans intervention.",
+    icon: "siteweb",
   },
 ];
 
@@ -301,11 +301,10 @@ export default function Services() {
                   Les deux ensemble
                 </span>
                 <p className="mt-3 pb-[0.25em] font-display text-fluid-h3 font-semibold leading-[1.5] tracking-tight text-ink">
-                  Un site qui capte.
+                  Un système qui identifie et automatise ce qui vous freine.
                   <span className="text-muted">
                     {" "}
-                    Un système qui identifie et automatise ce qui vous freine
-                    derrière.
+                    Un site qui capte ce que vous laissez sur la table.
                   </span>
                 </p>
               </div>
