@@ -1,4 +1,4 @@
-import { EMAIL, LINKEDIN_URL, PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
+import { EMAIL, LINKEDIN_URL } from "@/lib/site";
 
 function LinkedInIcon() {
   return (
@@ -35,13 +35,6 @@ export default function Footer() {
           >
             {EMAIL}
           </a>
-          <a
-            href={`tel:${PHONE_TEL}`}
-            className="text-sm text-muted/80 underline-offset-8 transition-colors hover:text-primary hover:underline"
-          >
-            {PHONE_DISPLAY}
-          </a>
-
           <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 md:justify-end">
             <a
               href={LINKEDIN_URL}
